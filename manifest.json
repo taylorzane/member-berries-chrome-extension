@@ -9,6 +9,7 @@
    ],
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["member-berry.js"]
+    "js": ["member-berry.js"],
+    "run_at": "document_end"
   }]
 }

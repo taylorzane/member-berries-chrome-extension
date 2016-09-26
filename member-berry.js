@@ -30,12 +30,14 @@ function replaceText(node, text, replacementNodeTemplate) {
   }
 }
 
+const memberBerryPurple = 'purple'
+
 let a = document.createElement('span')
-a.style.color = 'purple'
+a.style.color = memberBerryPurple
 a.innerText = 'member'
 
 let b = document.createElement('span')
-b.style.color = 'purple'
+b.style.color = memberBerryPurple
 b.innerText = 'Member'
 
 
